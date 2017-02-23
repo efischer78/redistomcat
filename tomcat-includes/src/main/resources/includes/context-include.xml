@@ -1,0 +1,6 @@
+<Valve className="com.orangefunction.tomcat.redissessions.RedisSessionHandlerValve" />
+<Manager className="com.orangefunction.tomcat.redissessions.RedisSessionManager"
+         host="{{ redis.host[0].sshHost }}"
+         port="{{ redis.port }}"
+         database="0"
+         maxInactiveInterval="60" />

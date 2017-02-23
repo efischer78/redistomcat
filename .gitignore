@@ -1,0 +1,23 @@
+# a comment this is ignored
+build/
+classes/
+target/
+.settings/
+deploy/
+testsuites/
+SCA-INF/
+.designer/
+*.bak
+*.class
+*.log
+.idea/
+.svn/
+.metadata/
+.classpath
+.project
+.checkstyle
+*.iml
+~$*
+.gradle/
+*.exe
+/.pydevproject
