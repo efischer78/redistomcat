@@ -1,6 +1,6 @@
 <Valve className="com.orangefunction.tomcat.redissessions.RedisSessionHandlerValve" />
 <Manager className="com.orangefunction.tomcat.redissessions.RedisSessionManager"
-         host="{{ .session.host[0].Host }}"
+         host="{{ .session.hosts[0].Host }}"
          port="{{ .session.port }}"
          database="0"
          maxInactiveInterval="60" />
